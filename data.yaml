@@ -1,0 +1,12 @@
+names:
+- raccoon
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: raccoon-detection-bow7l
+  url: https://universe.roboflow.com/symbiosis-institute-of-technology-6mptx/raccoon-detection-bow7l/dataset/1
+  version: 1
+  workspace: symbiosis-institute-of-technology-6mptx
+test: ../test/images
+train: raccoon-Detection-1/train/images
+val: raccoon-Detection-1/valid/images
