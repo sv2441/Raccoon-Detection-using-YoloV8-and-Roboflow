@@ -1,7 +1,10 @@
 # Raccoon-Detection-using-YoloV8-and-Roboflow
 A deep learning model to detect raccoons in images and videos using the YoloV8 object detection algorithm and the Roboflow platform for data preprocessing and training.
 
-Demo :- [Roboflow API](https://app.roboflow.com/symbiosis-institute-of-technology-6mptx/raccoon-detection-bow7l/1)
+Demo :- 
+[Roboflow API](https://app.roboflow.com/symbiosis-institute-of-technology-6mptx/raccoon-detection-bow7l/1)
+
+ To download Dataset click on -- [Dataset](https://app.roboflow.com/symbiosis-institute-of-technology-6mptx/raccoon-detection-bow7l/1)
 
 ![RESULT](https://user-images.githubusercontent.com/62471058/224153467-8c62eb6c-1096-481b-8c51-13d4e803ab50.png)
 
@@ -24,23 +27,32 @@ Overall, this project aims to develop a robust and accurate raccoon detection mo
 
 ## Methodology
 
-Data Collection: Collect a large dataset of images and videos containing raccoons. You can use online image repositories, wildlife camera traps, or drone footage to collect the data. Ensure that the dataset contains diverse images with different backgrounds, lighting conditions, and raccoon poses.
+ **Data Collection:** 
+Collect a large dataset of images and videos containing raccoons. You can use online image repositories, wildlife camera traps, or drone footage to collect the data. Ensure that the dataset contains diverse images with different backgrounds, lighting conditions, and raccoon poses.
 
-Data Preprocessing: Use the Roboflow platform to preprocess the data by resizing, cropping, and augmenting the images to improve the model's performance. Some useful data augmentation techniques for object detection tasks include flipping, rotation, and random cropping.
+**Data Preprocessing:**
+Use the Roboflow platform to preprocess the data by resizing, cropping, and augmenting the images to improve the model's performance. Some useful data augmentation techniques for object detection tasks include flipping, rotation, and random cropping.
 
-Data Annotation: Annotate the dataset by labeling the raccoons' bounding boxes in each image and video frame. You can use the Roboflow platform's annotation tools or third-party annotation tools such as Labelbox or VGG Image Annotator.
+**Data Annotation:**
+Annotate the dataset by labeling the raccoons' bounding boxes in each image and video frame. You can use the Roboflow platform's annotation tools or third-party annotation tools such as Labelbox or VGG Image Annotator.
 
-Model Selection: Select the YoloV8 algorithm as the object detection model for this project. YoloV8 is a deep neural network that can predict bounding boxes around objects in an image and classify them into different classes. YoloV8 is known for its high accuracy and fast processing speed, making it suitable for real-time applications.
+**Model Selection:**
+Select the YoloV8 algorithm as the object detection model for this project. YoloV8 is a deep neural network that can predict bounding boxes around objects in an image and classify them into different classes. YoloV8 is known for its high accuracy and fast processing speed, making it suitable for real-time applications.
 
-Transfer Learning: Fine-tune the pre-trained YoloV8 model on the annotated raccoon dataset using transfer learning. Transfer learning is a technique that leverages pre-trained weights from a similar task to reduce the training time and improve the model's accuracy.
+**Transfer Learning:**
+Fine-tune the pre-trained YoloV8 model on the annotated raccoon dataset using transfer learning. Transfer learning is a technique that leverages pre-trained weights from a similar task to reduce the training time and improve the model's accuracy.
 
-Model Training: Train the YoloV8 model on the annotated dataset using the Roboflow platform. The Roboflow platform provides tools for managing and tracking the model training process and evaluating the model's performance.
+**Model Training:**
+Train the YoloV8 model on the annotated dataset using the Roboflow platform. The Roboflow platform provides tools for managing and tracking the model training process and evaluating the model's performance.
 
-Model Evaluation: Evaluate the performance of the trained model on a test set of images and videos using various evaluation metrics such as precision, recall, and F1 score. Visualize the model's predictions on sample images and videos to inspect its performance.
+**Model Evaluation:**
+Evaluate the performance of the trained model on a test set of images and videos using various evaluation metrics such as precision, recall, and F1 score. Visualize the model's predictions on sample images and videos to inspect its performance.
 
-Model Deployment: Deploy the trained model on a real-time application, such as a surveillance camera or a mobile app, to detect raccoons in real-time. Ensure that the model's accuracy and performance are maintained in the deployment environment.
+**Model Deployment:**
+Deploy the trained model on a real-time application, such as a surveillance camera or a mobile app, to detect raccoons in real-time. Ensure that the model's accuracy and performance are maintained in the deployment environment.
 
-Model Maintenance: Regularly update and maintain the deployed model by retraining it on new data and fine-tuning its hyperparameters to improve its accuracy and performance over time.
+**Model Maintenance:**
+Regularly update and maintain the deployed model by retraining it on new data and fine-tuning its hyperparameters to improve its accuracy and performance over time.
 
 Overall, the methodology for the Racoon Detection project involves data collection, preprocessing, annotation, model selection, transfer learning, model training, evaluation, deployment, and maintenance. The Roboflow platform plays a critical role in this methodology by providing tools and services for data preprocessing, annotation, model training, and deployment.
 
@@ -63,6 +75,8 @@ and Install the library
 ```
 
 ## Results
+
+![image](https://user-images.githubusercontent.com/62471058/224157062-3d7bf540-aea7-4646-abeb-898712720ba9.png)
 
 
 ## Conclusion
